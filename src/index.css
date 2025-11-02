@@ -1,0 +1,39 @@
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap";
+
+@import "tailwindcss";
+
+@theme {
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+
+  --space-500: 40px;
+  --space-300: 24px;
+  --space-200: 16px;
+}
+
+@layer components {
+  .text-preset-1 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0;
+  }
+
+  .text-preset-2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+  }
+
+  .card-shadow {
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+  }
+}
+
+p {
+  font-size: 15px;
+}
